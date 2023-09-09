@@ -1,2 +1,4 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<h1>Welcome to Vulbytes Site</h1>
+<h2>more will be coming soon </h2>
+<br/><br/>
+<p> wishing you all the best, vulbyte </p>
