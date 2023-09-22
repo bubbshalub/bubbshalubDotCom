@@ -1,5 +1,6 @@
 <script>
     import mailIcon from '$lib/mailIcon.svg';
+    import vulbyteIcon from '$lib/1614160340.iminsert_000,042_-_thatlazyrat.jpg';
 
     //implimented states: active, monitored, inactive/un-monitored/not-monitored, and contact
     const links = [
@@ -100,7 +101,7 @@
     <br />
     <div id='iconContainer'> 
         <img 
-            src='https://d.furaffinity.net/art/iminsert/1614160340/1614160340.iminsert_000,042_-_thatlazyrat.jpg'
+            src='{vulbyteIcon}'
             alt='icon of vulbyte'
         />
     </div>

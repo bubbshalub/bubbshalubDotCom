@@ -1,9 +1,13 @@
+<script>
+    import vulbytesIcon from '$lib/1614160340.iminsert_000,042_-_thatlazyrat.jpg'
+</script>
+
 <div id='home'>
     <br />
     <br />
     <div id='iconContainer'> 
         <img 
-            src='https://d.furaffinity.net/art/iminsert/1614160340/1614160340.iminsert_000,042_-_thatlazyrat.jpg'
+            src='{vulbytesIcon}'
             alt='icon of vulbyte'
         />
     </div>
