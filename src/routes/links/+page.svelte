@@ -21,6 +21,9 @@
             'name': 'ArtStation', 'link': 'https://www.artstation.com/vulbyte', 'icon': 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Cib-artstation_%28CoreUI_Icons_v1.0.0%29.svg/2048px-Cib-artstation_%28CoreUI_Icons_v1.0.0%29.svg.png', 'status': 'monitored', 'note': '',
         },
         {
+            'name': 'Bluesky', 'link': 'https://bsky.app/profile/vulbyte.bsky.social', 'icon': 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Blue_Sky_Studios_2013_logo.svg/1280px-Blue_Sky_Studios_2013_logo.svg.png', 'status': 'monitored', 'note': '',
+        },
+        {
             'name': 'Furaffinity', 'link': 'https://www.furaffinity.net/user/iminsert', 'icon': 'https://user-images.githubusercontent.com/73164889/117507463-efde5e80-af7e-11eb-8886-5aeb3ce43778.png', 'status': 'monitored', 'note': '',
         },
         {
@@ -130,6 +133,8 @@
                 {/if}
             {/each}
         </div>
+
+        <hr>
         
         <h2> Monitored Links </h2>
         <div id='monitoredLinks' class='linkContainer'>
@@ -147,6 +152,8 @@
                 {/if}
             {/each}
         </div>
+
+        <hr>
         
         <h2> Inactive Links </h2>
         <p> these are all links that are offically mine, but are not active. if you wish to check them out feel free! but please don't expect a reply or any direct engaugement from me as i'm likely just posting via an API</p>
@@ -165,6 +172,8 @@
                 {/if}
             {/each}
         </div>
+
+        <hr>
 
         <h2> Contact Links </h2>
         <p> please do not use these to say hi! i appreciate you wanting to do so, but if you want to do so please use my discord server as i try to keep my dms clear! </p>
