@@ -1,6 +1,6 @@
 <script>
     import vulbytesWordmark from '$lib/vulbyteWordmark.svg';
-    import vulbytesLogo from '$lib/vulbytesLogo.png';
+    import vulbytesLogo from '$lib/vulbytesLogo.svg';
 
     const navBarLocations = new Map([
         ['HOME', '/'],
@@ -32,8 +32,8 @@
         display: grid;
             grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
         padding: 2rem;
-        padding-bottom: 1rem;
-        padding-top: 1rem;
+        padding-bottom: 0.5rem;
+        padding-top: 0.5rem;
     }
     nav > div {
         font-size: 1.2rem;
@@ -49,11 +49,12 @@
     }
     #navLogoContainer > a > img{
         aspect-ratio: auto;
-            height: 5rem;
+            height: 4rem;
             width: 5rem;
     }
+
     #navLogoContainer > a > img :nth-child(2){
-        height: 7rem !important;
+        height: 3rem !important;
     }
 
 </style>
