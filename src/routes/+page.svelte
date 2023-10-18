@@ -1,5 +1,6 @@
 <script>
-    import vulbytesIcon from '$lib/1614160340.iminsert_000,042_-_thatlazyrat.jpg'
+    import bubbsIcon from '$lib/sketchIconBubb.png';
+    import vulbyteIcon from '$lib/vulbytesLogo.svg';
 </script>
 
 <div id='home'>
@@ -7,32 +8,52 @@
     <br />
     <div id='iconContainer'> 
         <img 
-            src='{vulbytesIcon}'
-            alt='icon of vulbyte'
+            src='{bubbsIcon}'
+            alt='icon of Jesus Christ our Lord and Savior'
         />
     </div>
-    <h1>Welcome to 
+    <h1> 
         <span style=
         "
             color:transparent;
             background-clip: text;
-            background-image: linear-gradient(-45deg, #f0f, #ff0);    
+            background-image: linear-gradient(1rad, red, orange);    
         "   
         >
-           Vulbyte's website
+           Bubbshalub.com
         </span></h1>
-    <h2>more will be coming soon</h2>
+    <h2>more will be coming soon... maybe</h2>
     
     <a href='/links'>
         <div id='linkCta'>
-            <p> check out my links here while you're here </p>
+            <p> click here for my socials </p>
         </div>
     </a>
 
-    <p> wishing you all the best, Vulbyte </p>
+    <a href='https://vulbyte.com' target='_blank'>
+	<div id="creditDiv"> 
+	<img
+	src="{vulbyteIcon}"
+	/>
+		<p>
+		Handcrafted with love, sweat, and tears by 
+			Vulbyte
+		</p>
+
+	</div>
+	</a>
 </div>
 
 <style> 
+#creditDiv {
+	position:absolute;
+	bottom:0px;
+	margin:auto;
+	width:100%;
+}
+#creditDiv>img {
+	max-width:3rem;
+} 
     #home {
         text-align: center;
     }
@@ -52,7 +73,7 @@
             max-width: 50%;
         }
     #linkCta {
-        background-image: linear-gradient(-45deg, rgba(255, 0, 255, 0.7), rgba(0, 255, 255, 0.7));
+        background-image: linear-gradient(1rad, red, orange);
         border-radius: 30px;
         margin: auto;
         max-width: 30rem;
@@ -63,4 +84,5 @@
         font-weight: bolder;
         letter-spacing: 1.3px;
     }
+    
 </style>

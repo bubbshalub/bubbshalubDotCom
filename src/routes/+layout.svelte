@@ -1,30 +1,7 @@
 <script>
-    import vulbytesWordmark from '$lib/vulbyteWordmark.svg';
-    import vulbytesLogo from '$lib/vulbytesLogo.svg';
-
-    const navBarLocations = new Map([
-        ['Home', '/'],
-        ['Links', '/links'],
-        ['Scripts', '/scripts']
-    ]);
 </script>
 
 <nav>
-    <div id='navLogoContainer'>
-        <a href='/'>
-            <img 
-                src='{vulbytesLogo}'
-                alt='vulbytesLogo'
-            />
-            <img
-               src={vulbytesWordmark}
-               alt="Vulbytes"
-            />
-        </a>
-    </div>
-    {#each Array.from(navBarLocations) as [key, value] (key)}
-        <div> <a href="{value}">{key}</a></div>
-    {/each} 
 </nav>
 
 <style>
