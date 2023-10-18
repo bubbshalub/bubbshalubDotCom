@@ -3,8 +3,9 @@
     import vulbytesLogo from '$lib/vulbytesLogo.svg';
 
     const navBarLocations = new Map([
-        ['HOME', '/'],
-        ['LINKS', '/links'],
+        ['Home', '/'],
+        ['Links', '/links'],
+        ['Scripts', '/scripts']
     ]);
 </script>
 
