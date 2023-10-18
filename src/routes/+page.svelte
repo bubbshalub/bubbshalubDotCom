@@ -38,7 +38,7 @@
     }
         #home > div {
             margin: auto;
-            min-height: 100vh;
+            min-height: auto;
             width: 90%;
         }
     #iconContainer {
