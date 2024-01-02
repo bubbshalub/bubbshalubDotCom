@@ -70,7 +70,11 @@ export default function Navbar() {
       {/*navbar below*/}
       <nav
         id="navbar"
-        style={{ position: "absolute", top: `${top}px`, width: "100%" }}
+        style={{
+          position: "absolute",
+          top: `${navbarBgSize[0]}px`,
+          width: "100%",
+        }}
         ref={navbarRef}
       >
         {/*navbar below*/}
