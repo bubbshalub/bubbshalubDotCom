@@ -1,5 +1,8 @@
 import Navbar from "@/components/navbar";
 
+//styling
+//import "./components/formStyling.module.css";
+
 //form components
 import CharacterInfoForm from "./components/CharacterInfoForm";
 import ContactInfoForm from "./components/ContactInfo";

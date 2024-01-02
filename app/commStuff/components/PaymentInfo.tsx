@@ -18,7 +18,7 @@ export default function PaymentInfo() {
       please provide your paypal email and i will send you a money request when
       it is time to start and after i check the request form
       <br />
-      <input type="email" />
+      <input type="email" placeholder="paypal email" />
     </div>
   );
 }

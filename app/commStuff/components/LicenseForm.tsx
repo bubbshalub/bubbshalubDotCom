@@ -47,7 +47,13 @@ export default function LicenseForm() {
                 the original.{" "}
               </li>
             </ul>
-            More details: https://creativecommons.org/licenses/by-nc-sa/4.0/
+            More details here:
+            <a
+              className="text-blue-500"
+              href="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+            >
+              https://creativecommons.org/licenses/by-nc-sa/4.0/{" "}
+            </a>
           </details>
         </label>
         <input type="radio" name="commericial" />
@@ -94,16 +100,17 @@ export default function LicenseForm() {
                 the original.
               </li>
             </ul>
-            More details: https://creativecommons.org/licenses/by-sa/4.0/
+            More details here:
+            <a
+              className="text-blue-500"
+              href="https://creativecommons.org/licenses/by-sa/4.0/"
+            >
+              https://creativecommons.org/licenses/by-sa/4.0/
+            </a>
           </details>
         </label>
 
         <br />
-        <input type="radio" name="commericial" />
-        <label for="non-commercial">
-          commercial
-          <p>this means:</p>
-        </label>
         <br />
       </form>
     </div>
