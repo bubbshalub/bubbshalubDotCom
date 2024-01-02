@@ -1,0 +1,17 @@
+.NavbarBackground {
+    animation: navbarCycle 60s infinite;
+    animation-timing-function: linear;
+    background-size: 500%;
+    background-position-x: 0%;
+    filter: brightness(0.5);
+}
+
+@keyframes navbarCycle {
+    0% {
+        background-position-x: 0%;
+    }
+
+    100% {
+        background-position-x: 500%;
+    }
+}
