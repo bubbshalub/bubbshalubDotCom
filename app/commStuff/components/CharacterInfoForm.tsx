@@ -3,40 +3,44 @@ import { useState } from "react";
 
 export default function CharacterInfoForm() {
   function GenerateCharInfoForm(inputAmnt: number) {
-    if (inputAmnt >= 5) {
-      {
-        //return with a plain text input
-        /* {{{1 */
-      }
-      return (
-        <div>
-          <p>
-            because there is more then 5, please compile a list of the refs then
-            include them here. ideally in a format similar to:
-            <p>
-              charA (name): <br />
-              ref(s): (links) <br />
-              height: <br />
-              <br />
-              charB (name): <br />
-              ref(s): (links) <br />
-              height: <br />
-              <br />
-              etc etc
-            </p>
-          </p>
-          <input type="text" />
-        </div>
-      );
-      {
-        /* }}}1 */
-      }
-    }
-
     function AddCharacterForm() {
+      if (inputAmnt >= 5) {
+        {
+          //return with a plain text input
+          /* {{{1 */
+        }
+        return (
+          <div>
+            <p>
+              because there is more then 5, please compile a list of the refs
+              then include them here. ideally in a format similar to:
+              <p>
+                charA (name): <br />
+                ref(s): (links) <br />
+                height: <br />
+                <br />
+                charB (name): <br />
+                ref(s): (links) <br />
+                height: <br />
+                <br />
+                etc etc
+              </p>
+            </p>
+            <input type="text" />
+          </div>
+        );
+        {
+          /* }}}1 */
+        }
+      }
       return (
         <div>
-          <input type="text" placeholder="name" />
+          <input type="text" placeholder="name" className="text-black" />
+          <br />
+          <input type="url" placeholder="ref" className="text-black" />
+          <br />
+          <input type="height" placeholder="name" className="text-black" />
+          <br />
         </div>
       );
     }
@@ -48,6 +52,7 @@ export default function CharacterInfoForm() {
     return (
       <div>
         <p> please enter the information for each character </p>
+        <AddCharacterForm />
       </div>
     );
   }
@@ -74,6 +79,8 @@ export default function CharacterInfoForm() {
           onChange={handleRangeChange}
         />
         <p>selected value: {String(rangeValue) == "10" ? "10+" : rangeValue}</p>
+        <br />
+        {GenerateCharInfoForm()}
       </div>
     </div>
   );
