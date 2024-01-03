@@ -9,6 +9,8 @@ import MessagingPlatformForm from "./components/MessagingPlatform";
 import PaymentInfo from "./components/PaymentInfo";
 import TimelineForm from "./components/TimelineForm";
 
+//other stuff here
+
 export default function CommStuff() {
   return (
     <div>
