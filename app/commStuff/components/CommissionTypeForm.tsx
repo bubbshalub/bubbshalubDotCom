@@ -31,6 +31,11 @@ export default function CommissionTypeForm() {
         )}
         {QuickRadioInput(
           "commType",
+          "3d print",
+          "a 3d print of a model of your choice (some restrictions apply) where i 3d print your model using a high resolution resin printer then send it to you. additional options include: hand painting the model, using special resings, uv treating, and more.",
+        )}
+        {QuickRadioInput(
+          "commType",
           "animation",
           "story, meme, and the like, regardless of medium",
         )}
