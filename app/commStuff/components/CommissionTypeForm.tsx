@@ -1,3 +1,5 @@
+"use client";
+
 export default function CommissionTypeForm() {
   function QuickRadioInput(
     inputName: string,

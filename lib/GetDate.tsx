@@ -1,3 +1,5 @@
+//"use client";
+
 export default async function GetDate(returnType: string): Promise<string> {
   console.log("running: GetDate();");
   try {
