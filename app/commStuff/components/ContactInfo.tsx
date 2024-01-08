@@ -24,7 +24,7 @@ function QuickInput(
 }
 
 //comment for git commit
-//comment for git commit 2, electric bogaloo
+//comment for git commit 2, electic boogaloosh
 
 //AppendToUrl(key, value, debug?)
 
