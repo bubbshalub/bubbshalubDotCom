@@ -153,6 +153,11 @@ export default function Navbar() {
                 comm stuff
               </a>
             </div>
+            <div className="m-auto">
+              <a href="/projects" target="">
+                projects
+              </a>
+            </div>
           </div>
           {/*<div></div>*/}
         </div>
