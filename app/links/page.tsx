@@ -7,8 +7,9 @@
  *  move the contact section into a footer,
  */
 
-"use client";
+//"use client";
 
+import Navbar from "@/components/navbar";
 import "./links.css";
 
 import React from "react";
@@ -428,6 +429,7 @@ function ContactLinks() {
 export default function LinksPage() {
   return (
     <div id="linksPage" className="m-auto text-center">
+      <Navbar />
       <br />
       <br />
       <div

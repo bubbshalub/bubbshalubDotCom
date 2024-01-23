@@ -1,12 +1,19 @@
-'use client';
+"use client";
 
 import Navbar from "@/components/navbar";
+import MostPopularMK8Character from "./mk8dxCharCounter/page";
 
-export default function Projects(){
-    return (
-        <div>
-            <Navbar />
-            projects page
-        </div>
-    )
+export default function Projects() {
+  return (
+    <div>
+      <Navbar />
+      projects page
+      <br />
+      <ul>
+        <li>
+          <a href="/projects/mk8dxCharCounter"> mk8dxCharCounter </a>
+        </li>
+      </ul>
+    </div>
+  );
 }
