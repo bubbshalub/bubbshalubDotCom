@@ -3,6 +3,8 @@
 import { useEffect, useState } from "react";
 import Navbar from "@/components/navbar";
 
+import "./checkerPattern.css";
+
 const MissingTexture = "/lib/Missing_Texture_JE4.webp";
 
 const charactersData = [
@@ -44,7 +46,7 @@ const charactersData = [
     value: 0,
   },
   {
-    name: "cat h",
+    name: "cat peach",
     index: "7",
     icon: "https://static.wikia.nocookie.net/we-are-peach/images/0/09/MKT_Cat_Peach.png",
     value: 0,
@@ -381,9 +383,14 @@ export default function MostPopularMK8Character() {
 
       <strong>
         {" "}
-        note: this has no offilation, licensing or anything of the sort from
-        nintendo. this is simply just a cute little project i thought i would
-        make public so others can play around with it aswell{" "}
+        notes:
+        <br />
+        this has no offilation, licensing or anything of the sort from nintendo.
+        this is simply just a cute little project i thought i would make public
+        so others can play around with it aswell <br />
+        this also has no accesibility settings outside of trying to be mindful
+        about semi-decent html practices, so if you rely on good keyboard
+        support for this i apologize but this won't work well for you.
       </strong>
       <div
         className="characterContainer"
