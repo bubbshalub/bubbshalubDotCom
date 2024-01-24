@@ -5,17 +5,17 @@ import GetDate from "@/lib/GetDate";
 export default async function UpdateNavbarBackgroundStyle(
   setNavbarBg: any,
 ): Promise<void> {
-  console.log("UPDATING NAVBAR BG STYLING");
+  //console.log("UPDATING NAVBAR BG STYLING");
   try {
     let month = await GetDate("month");
-    //console.warn(month);
-    //console.log("month[0]: ", month[0]);
-    //console.log("month[1]: ", month[1]);
+    ////console.warn(month);
+    ////console.log("month[0]: ", month[0]);
+    ////console.log("month[1]: ", month[1]);
 
     if (month[0] === "0") {
-      //console.log("reassigning month");
+      ////console.log("reassigning month");
       month = month[1];
-      //console.log(month);
+      ////console.log(month);
     }
 
     switch (month) {
@@ -70,7 +70,7 @@ export default async function UpdateNavbarBackgroundStyle(
         break;
     }
   } catch (error) {
-    console.error("Error in GetDate:", error);
+    //console.error("Error in GetDate:", error);
     // Handle the error as needed
   }
 }
