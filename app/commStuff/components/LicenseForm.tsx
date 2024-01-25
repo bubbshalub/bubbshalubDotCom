@@ -9,7 +9,7 @@ export default function LicenseForm() {
 
       <form>
         <input type="radio" name="non-commericial" />
-        <label for="non-commercial">
+        <label htmlFor="non-commercial">
           non-commercial
           <details className="bg-zinc-800">
             <summary className="text-gray-500">
@@ -59,7 +59,7 @@ export default function LicenseForm() {
           </details>
         </label>
         <input type="radio" name="commericial" />
-        <label for="commercial">
+        <label htmlFor="commercial">
           {" "}
           commercial
           <details className="bg-zinc-800">

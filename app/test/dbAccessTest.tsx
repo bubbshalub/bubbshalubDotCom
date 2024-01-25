@@ -1,19 +1,17 @@
+/*
 "use strict"; // Ensure 'use strict' is placed at the top of the script
 
 import { useEffect, useState } from "react";
 import { createClient } from "@supabase/supabase-js";
 
-const supabase = createClient(/*SupabaseUrl, AnonKey*/);
+const supabase = createClient(SupabaseUrl, AnonKey);
 
 export default function DBAccessTest(table: string) {
   const [countries, setCountries] = useState([]);
 
-  useEffect(
-    (getCountries: any) => {
-      getCountries();
-    },
-    [getCountries],
-  );
+  useEffect(() => {
+    getCountries();
+  }, []);
 
   async function getCountries() {
     const { data } = await supabase.from(table).select();
@@ -30,5 +28,14 @@ export default function DBAccessTest(table: string) {
         </li>
       ))}
     </ul>
+  );
+}
+*/
+
+export default function DBAccessText() {
+  return (
+    <div>
+      <p> this has been disabled for now </p>
+    </div>
   );
 }

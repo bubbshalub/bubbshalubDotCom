@@ -1,4 +1,3 @@
-"use client";
 import GetDate from "@/lib/GetDate";
 
 // Change navbar bg based on month

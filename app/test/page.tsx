@@ -10,7 +10,7 @@ export default function Test() {
       <Navbar />
       <p>example</p>
 
-      {DBAccessTest("testTable")}
+      {/*DBAccessTest("testTable")*/}
       <MessageBox />
     </div>
   );

@@ -9,7 +9,7 @@ export default function CommissionTypeForm() {
     return (
       <div>
         <input type="radio" name={inputName} value={inputValue} />
-        <label for={inputValue}>
+        <label htmlFor={inputValue}>
           {inputValue}
           <br />
           <p className="text-gray-500"> {inputDescription} </p>

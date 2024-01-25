@@ -7,13 +7,13 @@ export default function MessagingPlatformForm() {
       </h6>
       <form id="messaging platform">
         <input type="checkbox" name="communicationPlatform" value="discord" />
-        <label for="discord"> discord </label>
+        <label htmlFor="discord"> discord </label>
         <br />
         <input type="checkbox" name="communicationPlatform" value="telegram" />
-        <label for="telegram"> telegram </label>
+        <label htmlFor="telegram"> telegram </label>
         <br />
         <input type="checkbox" name="communicationPlatform" value="other" />
-        <label for="other"> other </label>
+        <label htmlFor="other"> other </label>
         <br />
       </form>
       <br />
