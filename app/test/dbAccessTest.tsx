@@ -8,9 +8,12 @@ const supabase = createClient(/*SupabaseUrl, AnonKey*/);
 export default function DBAccessTest(table: string) {
   const [countries, setCountries] = useState([]);
 
-  useEffect(() => {
-    getCountries();
-  }, [getCountries()]);
+  useEffect(
+    (getCountries: any) => {
+      getCountries();
+    },
+    [getCountries],
+  );
 
   async function getCountries() {
     const { data } = await supabase.from(table).select();

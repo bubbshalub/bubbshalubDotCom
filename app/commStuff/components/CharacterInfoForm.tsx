@@ -81,7 +81,7 @@ export default function CharacterInfoForm() {
         />
         <p>selected value: {String(rangeValue) == "10" ? "10+" : rangeValue}</p>
         <br />
-        {GenerateCharInfoForm()}
+        {GenerateCharInfoForm(rangeValue)}
       </div>
     </div>
   );
