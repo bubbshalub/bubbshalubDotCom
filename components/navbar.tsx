@@ -2,10 +2,6 @@
 "use client";
 
 //supabase credentials
-const SupabaseURL = "https://gjjnxbmmkbqcoidkolsa.supabase.co";
-const AnonKey =
-  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imdqam54Ym1ta2JxY29pZGtvbHNhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDU5ODEwNzIsImV4cCI6MjAyMTU1NzA3Mn0.JupgQOHf9Petxp6KZ004Iuz19J5947jOWlnnIg7Ncm4";
-
 //assets
 import Image from "next/image";
 import vulbyteLogo from "../public/vulbyteIcon.svg";
@@ -157,6 +153,7 @@ export default function Navbar() {
                 links
               </a>
             </div>
+            {/*
             <div className="m-auto">
               <a href="/commStuff" target="">
                 comm stuff
@@ -167,10 +164,12 @@ export default function Navbar() {
                 projects
               </a>
             </div>
+            */}
           </div>
           {/*}}}1*/}
           {/*<div></div>*/}
           {/*account button*/}
+          {/*
           <a href="/account">
             <div
               className="
@@ -188,6 +187,7 @@ export default function Navbar() {
               <p>account</p>
             </div>
           </a>
+          */}
         </div>
       </nav>
       <br />
