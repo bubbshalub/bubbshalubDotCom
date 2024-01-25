@@ -6,11 +6,11 @@ import { createClient } from "@supabase/supabase-js";
 
 import { useState } from "react";
 
-const supabase = createClient(/*account, anon key*/);
+//const supabase = createClient(/*account, anon key*/);
 
-/*
 export default function Account() {
   const [userName, setUserName] = useState("username");
+  /*
 
   const updateValues = async () => {
     console.log("updating user values");
