@@ -5,7 +5,7 @@ import CharacterInfoForm from "./components/CharacterInfoForm";
 import ContactInfoForm from "./components/ContactInfo";
 import CommissionTypeForm from "./components/CommissionTypeForm";
 import LicenseForm from "./components/LicenseForm";
-import MessagingPlatformForm from "./components/MessagingPlatform";
+//import MessagingPlatformForm from "./components/MessagingPlatform";
 import PaymentInfo from "./components/PaymentInfo";
 import TimelineForm from "./components/TimelineForm";
 
@@ -28,7 +28,7 @@ export default function CommStuff() {
           {/*beginning of forum*/}
           <h2 className="text-2xl"> contact details </h2>
           <ContactInfoForm />
-          <MessagingPlatformForm />
+          {/*<MessagingPlatformForm />*/}
           <h2 className="text-2xl"> commission details</h2>
           <CommissionTypeForm />
           <br />
