@@ -73,6 +73,7 @@ export default function ContactInfoForm() {
       <br />
       {QuickInput("text", "Hops", lName, lNameChange)}
       <p>
+        {" "}
         if you are uncomfortable filling it out here please just enter something
         obviously fake and i'll omit it, tho i believe with a paypal transfer it
         will be shown their

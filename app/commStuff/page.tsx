@@ -17,7 +17,11 @@ export default function CommStuff() {
       <Navbar />
       <br />
       <br />
-
+      <h2 className="bg-yellow-100 text-black">
+        THIS PAGE IS UNDER DEVELOPMENT <br />
+        PLEASE DO NOT FILL ANYTHING OUT, AS IF YOU DO NO DATA WILL BE SENT
+        MAKING IT A WASTE OF YOUR TIME
+      </h2>
       <h1 className="bg-red-500 text-3xl">interested in a commission? </h1>
       <h2 className="text-3xl"> check all this out then </h2>
       <br />
