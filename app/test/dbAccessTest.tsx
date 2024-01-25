@@ -10,7 +10,7 @@ export default function DBAccessTest(table: string) {
 
   useEffect(() => {
     getCountries();
-  }, []);
+  }, [getCountries()]);
 
   async function getCountries() {
     const { data } = await supabase.from(table).select();

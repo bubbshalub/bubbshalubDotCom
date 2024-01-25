@@ -231,7 +231,7 @@ function ActiveLinks() {
       <h2> Active Links </h2>
       <div id="activeLinks" className="linkContainer">
         {activeLinks.map((link, index) => (
-          <a href={link.link} target="_blank">
+          <a key={index} href={link.link} target="_blank">
             <div
               id={link.name}
               className="
@@ -274,7 +274,7 @@ function MonitoredLinks() {
     <div>
       <h2> Monitored Links </h2>
       {monitoredLinks.map((link, index) => (
-        <div id="monitoredLinks" className="linkContainer">
+        <div key={index} id="monitoredLinks" className="linkContainer">
           <a href={link.link} target="_blank">
             <div
               id={link.name}
@@ -322,9 +322,9 @@ function InactiveLinks() {
     <div>
       <h2> Inactive Links </h2>
       <p>
-        these are all links that are offically mine, but are not active. if you
+        {`these are all links that are offically mine, but are not active. if you
         wish to check them out feel free! but please don't expect a reply or any
-        direct engaugement from me as i'm likely just posting via an API
+        direct engaugement from me as i'm likely just posting via an API`}
       </p>
       <div>
         <div
@@ -340,6 +340,7 @@ function InactiveLinks() {
         >
           {inactiveLinks.map((link, index) => (
             <a
+              key={index}
               href={link.link}
               target="_blank"
               className="w-32"
@@ -395,12 +396,12 @@ function ContactLinks() {
     <div id="contactLinks" className="linkContainer">
       <h2> contact links </h2>
       <p className="text-left">
-        please do not use these to say hi! i appreciate you wanting to do so,
+        {`please do not use these to say hi! i appreciate you wanting to do so,
         but if you want to do so please use my discord server as i try to keep
-        my dms clear!
+        my dms clear!`}
       </p>
       {contactLinks.map((link, index) => (
-        <a href={link.link} target="_blank" className="p-3">
+        <a key={index} href={link.link} target="_blank" className="p-3">
           <div
             id={link.name}
             className="

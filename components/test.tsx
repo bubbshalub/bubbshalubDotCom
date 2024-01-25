@@ -24,7 +24,7 @@ function MatchBoundingBox() {
       // Optionally, you can store the bounding box in state if needed
       setBoundingBox(sourceRect);
     }
-  }, [sourceRef.current]); // Only re-run the effect when sourceRef changes
+  }, []); // Only re-run the effect when sourceRef changes
 
   return (
     <div>

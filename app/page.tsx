@@ -15,7 +15,7 @@ export default function Home() {
             <span className="text-pink-500">y</span>
             <span className="text-cyan-500">t</span>
             <span className="text-amber-500">e</span>
-            's website
+            {`'s website`}
           </h1>
         </div>
       </main>

@@ -371,7 +371,7 @@ export default function MostPopularMK8Character() {
         </li>
         <h4> loading data </h4>
         <strong> the next part is because of a bug </strong>
-        <li> after pasting in the url, you'll notice all values are 0 </li>
+        <li> {`after pasting in the url, you'll notice all values are 0`} </li>
         <li> increment a value </li>
         <li> decrement same value</li>
         <li> now all the numbers should be loaded and accurate </li>
@@ -385,12 +385,12 @@ export default function MostPopularMK8Character() {
         {" "}
         notes:
         <br />
-        this has no offilation, licensing or anything of the sort from nintendo.
+        {`this has no affilation, licensing or anything of the sort from nintendo.
         this is simply just a cute little project i thought i would make public
         so others can play around with it aswell <br />
         this also has no accesibility settings outside of trying to be mindful
         about semi-decent html practices, so if you rely on good keyboard
-        support for this i apologize but this won't work well for you.
+        support for this i apologize but this won't work well for you.`}
       </strong>
       <div
         className="characterContainer"

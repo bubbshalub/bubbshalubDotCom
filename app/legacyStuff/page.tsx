@@ -5,14 +5,14 @@ export default function Legacy() {
         <br />
         <br />
         <div id="iconContainer">
-          <img src="{vulbytesIcon}" alt="icon of vulbyte" />
+          {/*<Image source={"vulbytesIcon"} alt="icon of vulbyte" />*/}
         </div>
-        <h1>Welcome to Vulbyte's website</h1>
+        <h1>{`Welcome to Vulbyte's website`}</h1>
         <h2>more will be coming soon</h2>
 
         <a href="/links">
           <div id="linkCta">
-            <p> check out my links here while you're here </p>
+            <p> {`check out my links here while you're here`} </p>
           </div>
         </a>
 
