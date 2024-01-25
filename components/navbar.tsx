@@ -1,6 +1,11 @@
 //nextjs flag of where to render
 "use client";
 
+//supabase credentials
+const SupabaseURL = "https://gjjnxbmmkbqcoidkolsa.supabase.co";
+const AnonKey =
+  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imdqam54Ym1ta2JxY29pZGtvbHNhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDU5ODEwNzIsImV4cCI6MjAyMTU1NzA3Mn0.JupgQOHf9Petxp6KZ004Iuz19J5947jOWlnnIg7Ncm4";
+
 //assets
 import Image from "next/image";
 import vulbyteLogo from "../public/vulbyteIcon.svg";
@@ -25,7 +30,7 @@ export default function Navbar() {
 
   //
   useEffect(() => {
-    console.log("navbarRef: ", navbarRef.current?.getBoundingClientRect());
+    //console.log("navbarRef: ", navbarRef.current?.getBoundingClientRect());
     UpdateNavbarBackgroundSize(navbarRef, setNavbarBgSize);
 
     UpdateNavbarBackgroundStyle(setNavbarBg);
@@ -94,6 +99,8 @@ export default function Navbar() {
               maxHeight: "100%",
             }}
           >
+            {/*icon/logo*/}
+            {/*{{{1*/}
             <div
               className="bg-black text-white rounded-r-md left-0 h-6"
               style={{
@@ -128,8 +135,10 @@ export default function Navbar() {
                 <span style={{ width: "1rem" }} />
               </a>
             </div>
+            {/*}}}1*/}
           </div>
           {/*links below*/}
+          {/*{{{1*/}
           <div
             style={{
               width: "100%",
@@ -159,7 +168,26 @@ export default function Navbar() {
               </a>
             </div>
           </div>
+          {/*}}}1*/}
           {/*<div></div>*/}
+          {/*account button*/}
+          <a href="/account">
+            <div
+              className="
+                aspect-square
+                align-middle
+                bg-black
+                m-auto
+                z-20
+                "
+              style={{
+                background: "#000000",
+                height: "100%",
+              }}
+            >
+              <p>account</p>
+            </div>
+          </a>
         </div>
       </nav>
       <br />

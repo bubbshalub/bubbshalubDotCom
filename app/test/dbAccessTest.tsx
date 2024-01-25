@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { createClient } from "@supabase/supabase-js";
 
-const supabase = createClient(/*SERVER INFORMATION GOES HERE*/);
+const supabase = createClient(/*SupabaseUrl, AnonKey*/);
 
 export default function DBAccessTest(table: string) {
   const [countries, setCountries] = useState([]);
