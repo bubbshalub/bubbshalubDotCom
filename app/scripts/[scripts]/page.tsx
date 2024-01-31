@@ -21,7 +21,7 @@ export default async function newYearsResolutions({
 
   return (
     <div>
-      <p> this is the script for "newYearsResolutionsVideo" </p>
+      <p> this is a dead page </p>
     </div>
   );
 }
