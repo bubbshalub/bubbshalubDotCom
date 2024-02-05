@@ -390,39 +390,120 @@ function InactiveLinks() {
   );
 }
 
+// function ContactLinks() {
+//   const contactLinks = links.filter((link) => link.status == "contact");
+//   return (
+//     <div id="contactLinks" className="linkContainer">
+//       <h2> contact links </h2>
+//       <p className="text-left">
+//         {`please do not use these to say hi! i appreciate you wanting to do so,
+//         but if you want to do so please use my discord server as i try to keep
+//         my dms clear!`}
+//       </p>
+//       {contactLinks.map((link, index) => (
+//         <a
+//           key={index}
+//           href={link.link}
+//           target="_blank"
+//           className="p-3 max-w-3 w-3"
+//         >
+//           <div
+//             id={link.name}
+//             className="
+//               bg-zinc-900
+//               flex
+//               flex-col
+//               generatedLink
+//               h-32
+//               max-h-32
+//               max-w-32
+//               m-auto
+//               p-6
+//               rounded-full
+//               w-96
+//               "
+//           >
+//             <img src={link.icon} alt="" className="h-16 w-16 m-auto" />
+//             <p> {link.name} </p>
+//           </div>
+//         </a>
+//       ))}
+//     </div>
+//   );
+// }
+
 function ContactLinks() {
-  const contactLinks = links.filter((link) => link.status == "contact");
+  const inactiveLinks = links.filter((link) => link.status == "contact");
+
   return (
-    <div id="contactLinks" className="linkContainer">
-      <h2> contact links </h2>
-      <p className="text-left">
-        {`please do not use these to say hi! i appreciate you wanting to do so,
-        but if you want to do so please use my discord server as i try to keep
-        my dms clear!`}
+    <div>
+      <h2> Inactive Links </h2>
+      <p>
+        {`these are all links that are offically mine, but are not active. if you
+        wish to check them out feel free! but please don't expect a reply or any
+        direct engaugement from me as i'm likely just posting via an API`}
       </p>
-      {contactLinks.map((link, index) => (
-        <a key={index} href={link.link} target="_blank" className="p-3">
-          <div
-            id={link.name}
-            className="
-          bg-zinc-900 
-          flex
-          flex-col
-          generatedLink
-          h-32
-          max-h-32
-          max-w-32
-          m-auto
-          p-6
-          rounded-full
-          w-96
-          "
-          >
-            <img src={link.icon} alt="" className="h-16 w-16 m-auto" />
-            <p> {link.name} </p>
-          </div>
-        </a>
-      ))}
+      <div>
+        <div
+          id="inactiveLinks"
+          className="linkContainer
+      grid"
+          style={{
+            display: "grid",
+            gap: "1em",
+            gridTemplateColumns: "repeat(auto-fit, minmax(8rem, 1fr))",
+            margin: "auto",
+          }}
+        >
+          {inactiveLinks.map((link, index) => (
+            <a
+              key={index}
+              href={link.link}
+              target="_blank"
+              className="w-32"
+              style={{
+                aspectRatio: "auto",
+                display: "grid",
+                margin: "auto",
+              }}
+            >
+              <div
+                id={link.name}
+                className="
+                  align-middle
+                  bg-zinc-900 
+                  flex 
+                  flex-col
+                  font-bold
+                  generatedLink 
+                  justify-center 
+                  h-32
+                  p-1 
+                  rounded-full
+                  text-white 
+                  w-32
+                "
+                style={{
+                  backgroundImage: "linear-gradient(-45deg, #111, #222)",
+                  borderRadius: "1rem",
+                  padding: "0px",
+                  margin: "auto",
+                }}
+              >
+                <img
+                  src={link.icon}
+                  alt=""
+                  className="aspect-auto h-8 w-8 ml-auto mr-auto"
+                  style={{
+                    filter: "invert(1) brightness(100)",
+                  }}
+                />
+                <p> {link.name} </p>
+              </div>
+            </a>
+          ))}
+        </div>
+      </div>
     </div>
   );
 }
