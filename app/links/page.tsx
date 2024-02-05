@@ -544,7 +544,7 @@ export default function LinksPage() {
         wishing you all the best, Vulbyte
       </p>
 
-      <div className="">
+      <div className="w-1/2 m-auto">
         <ActiveLinks />
         <hr className="opacity-0" />
 
