@@ -227,7 +227,7 @@ function ActiveLinks() {
   const activeLinks = links.filter((link) => link.status == "active");
 
   return (
-    <div>
+    <div className="w-auto m-auto">
       <h2> Active Links </h2>
       <div id="activeLinks" className="linkContainer">
         {activeLinks.map((link, index) => (
@@ -463,7 +463,7 @@ export default function LinksPage() {
         wishing you all the best, Vulbyte
       </p>
 
-      <div className="max-w-4xl">
+      <div className="">
         <ActiveLinks />
         <hr className="opacity-0" />
 
