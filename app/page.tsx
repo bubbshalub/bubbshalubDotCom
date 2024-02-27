@@ -8,33 +8,38 @@ export default function Home() {
         <div>
           <br />
           <div className="warning bg-yellow-500 text-white font-bold p-8">
-            <h1>
+            <h6>
               {`please know this site is currently being reworked to add lots of
               new features and stuff.`}
               <br />
-            </h1>
+            </h6>
             <p>
-              {`you will likely encounter bugs and glitches while i [vulbyte] am sorting everything out. but until then please enjoy yourself and feel free to check out my links!`}
+              {`you will likely encounter bugs and glitches while i [vulbyte] am sorting everything out. but until then please enjoy yourself and feel free to check out my `}
+              <a className="text-teal" href="/links">
+                {`links!`}
+              </a>
+              <br />
+              {`or poke around`}
             </p>
           </div>
           <br />
         </div>
         <div className="w-fit m-auto">
           <p> welcome to </p>
-          <h1 className="">
-            <span className="text-red-500">v</span>
-            <span className="text-green-500">u</span>
-            <span className="text-blue-500">l</span>
-            <span className="text-yellow-500">b</span>
-            <span className="text-pink-500">y</span>
-            <span className="text-cyan-500">t</span>
-            <span className="text-amber-500">e</span>
+          <h1 className="text-white">
+            <span className="text-[#ff0000]">v</span>
+            <span className="text-[#ffff00]">u</span>
+            <span className="text-[#00ff00]">l</span>
+            <span className="text-[#00ffff]">b</span>
+            <span className="text-[#0000ff]">y</span>
+            <span className="text-[#ff00ff]">t</span>
+            <span className="text-[#ff0000]">e</span>
             {`'s website`}
-            <br />
-            {`
-                the website is under heavy metenance right. but until then feel free look around
-            `}
           </h1>
+          <br />
+          {`
+                the website is under heavy matanince right. but until then feel free look around
+            `}
         </div>
       </main>
     </div>

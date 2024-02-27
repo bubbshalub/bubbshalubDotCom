@@ -93,6 +93,7 @@ export default function Navbar() {
             style={{
               position: "relative",
               maxHeight: "100%",
+              width: "14rem",
             }}
           >
             {/*icon/logo*/}
@@ -143,22 +144,22 @@ export default function Navbar() {
             }}
             className="z-10 relative"
           >
-            <div className="m-auto">
+            <div className="m-auto text-[#fff]">
               <a href="/" target="">
                 home
               </a>
             </div>
-            <div className="m-auto">
+            <div className="m-auto text-[#fff]">
               <a href="/links" target="">
                 links
               </a>
             </div>
-            {/*
-            <div className="m-auto">
-              <a href="/commStuff" target="">
-                comm stuff
+            <div className="m-auto text-[#fff]">
+              <a href="/scripts" target="">
+                scripts
               </a>
             </div>
+            {/*
             <div className="m-auto">
               <a href="/projects" target="">
                 projects
