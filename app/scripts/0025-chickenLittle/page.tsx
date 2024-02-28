@@ -91,7 +91,12 @@ export default function chickenLittle() {
             {`
             is a game which- 
             nonono, you know, imm a just pull an illuminautti [`}
-            <a href="">context</a>
+            <a
+              href="https://youtu.be/yDp3cB5fHXQ?si=kgm6JgL9T76-2Wg0&t=2579"
+              target="_blank"
+            >
+              context
+            </a>
             {`]and read the wiki
           `}
           </p>
@@ -115,8 +120,11 @@ export default function chickenLittle() {
           </p>
           <cite>
             {`from:`}
-            <a href="https://en.wikipedia.org/wiki/Chicken_Little_(video_game)">
-              {`https://en.wikipedia.org/wiki/Chicken_Little_(video_game)`}{" "}
+            <a
+              href="https://en.wikipedia.org/wiki/Chicken_Little_(video_game)"
+              target="_blank"
+            >
+              {`https://en.wikipedia.org/wiki/Chicken_Little_(video_game)`}
             </a>
           </cite>
           <p>{`
@@ -146,7 +154,10 @@ export default function chickenLittle() {
           `}
             <cite>
               [
-              <a href="https://en.wikipedia.org/wiki/Chicken_Little_(2005_film)">
+              <a
+                href="https://en.wikipedia.org/wiki/Chicken_Little_(2005_film)"
+                target="_blank"
+              >
                 https://en.wikipedia.org/wiki/Chicken_Little_(2005_film)
               </a>
               ]
@@ -193,7 +204,10 @@ export default function chickenLittle() {
                 now i don't want to sound like a dingle, but i will say the graphics are rather dated. and this isn't a "i don't like the style" way, but more a "this was published in 2005 and i can see it". that being said i don't want to make it seem like i'm hating on them, given my limited knowledge of graphics programming, and how  
                 `}</p>
               <cite>
-                <a href="https://en.wikipedia.org/wiki/PlayStation_2_technical_specifications#:~:text=The%20sixth%2Dgeneration%20hardware%20of,299%20MHz%20in%20later%20consoles).">
+                <a
+                  href="https://en.wikipedia.org/wiki/PlayStation_2_technical_specifications#:~:text=The%20sixth%2Dgeneration%20hardware%20of,299%20MHz%20in%20later%20consoles)."
+                  target="_blank"
+                >
                   {`
                 the ps2 had a clockspeed of ~295MHz and about 32mb of ram
                   `}
@@ -204,10 +218,27 @@ export default function chickenLittle() {
               `}</p>
             </li>
             <li>
+              <h5>
+                the cuts between the story and gameplay are rather jarring
+              </h5>
+              <p>{`
+                speaking of graphics i find it rather jarring how the cuts between the movie, and the game are. 
+                i'm not trying to be rude when i say this, but when i play the game, i can get immersed in the less ideal graphics. 
+                the issue though is then i have these cuts between the movie and the in game animations it is VERY jarring to me, and makes me commonly comment how stark i feel the difference is.
+                again, i think the game looks great but with the contrast in how the a prerendered movie is vs an either real time or in game cinematic is, it's rather jarring and i sorta with they would have done the whole thing in game. but i understand budget and time constrains probably wouldn't allow that.
+              `}</p>
+            </li>
+            <li>
               <h5> the game has its repetitive moments </h5>
               <p>{`
                 this is a thing that is rather rad to say, but the game really felt like crunch was hitting near the end, as the finale platformer is effectively a repeat of only a few levels earlier.
                 which really made the last level feel much more like a victory lap then a proper level.
+              `}</p>
+            </li>
+            <li>
+              <h5> the game changes the story of chicken little </h5>
+              <p>{`
+                another issue i have with the game is they change a good chunk of the story and how it goes, and i'm generally not opposed to things being changed; however in this case it feels like it was to simply hold the game together and add more levels. and i completely understand why they did this, however but i don't personally think the story benefits from the changes, and some of the major off branches from the story are some of my more tedious and less favorable levels.
               `}</p>
             </li>
           </ul>
@@ -218,8 +249,8 @@ export default function chickenLittle() {
           <h4> Alternatives </h4>
         </div>*/}
         <div>
-          <a href="asdf.com"> here is some random link </a>
           <h3> Critical Analysis: </h3>
+          <p>{``}</p>
           <h4> Quality </h4>
           <h4> Impact </h4>
         </div>
