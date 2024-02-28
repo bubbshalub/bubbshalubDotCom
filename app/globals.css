@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+}
+
 :root {
     --foreground-rgb: 0, 0, 0;
     --background-start-rgb: 214, 219, 220;
@@ -87,13 +92,37 @@ body {
     }
 
     a {
-        color: #0ff;
+        background-color: #0ff;
+        color: #000;
+        padding-left: 0.3rem;
+        padding-right: 0.3rem;
+        /*color: #0ff;*/
         text-decoration: underline;
         text-decoration-color: #0ff;
+    }
+
+    a:hover {
+        color: #00f;
+    }
+
+    a:visited:hover {
+        color: #ff00ff;
     }
 
     hr {
         padding-top: 1rem;
         padding-bottom: 1rem;
+    }
+
+    ul {
+        list-style: circle;
+        list-style-position: outside;
+        text-decoration: solid;
+    }
+
+    li {
+        list-style: circle;
+        list-style-position: outside;
+        text-decoration: solid;
     }
 }

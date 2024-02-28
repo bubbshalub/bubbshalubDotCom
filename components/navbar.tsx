@@ -109,7 +109,7 @@ export default function Navbar() {
             >
               <a
                 href="/"
-                className="flex justify-items-end"
+                className="flex justify-items-end bg-transparent"
                 style={{ height: "100%", maxHeight: "100%" }}
               >
                 <span style={{ width: "1rem" }} />
@@ -144,18 +144,22 @@ export default function Navbar() {
             }}
             className="z-10 relative"
           >
-            <div className="m-auto text-[#fff]">
-              <a href="/" target="">
+            <div className="m-auto">
+              <a href="/" target="" className="text-[#fff] bg-transparent">
                 home
               </a>
             </div>
-            <div className="m-auto text-[#fff]">
-              <a href="/links" target="">
+            <div className="m-auto">
+              <a href="/links" target="" className="text-[#fff] bg-transparent">
                 links
               </a>
             </div>
-            <div className="m-auto text-[#fff]">
-              <a href="/scripts" target="">
+            <div className="m-auto">
+              <a
+                href="/scripts"
+                target=""
+                className="text-[#fff] bg-transparent"
+              >
                 scripts
               </a>
             </div>

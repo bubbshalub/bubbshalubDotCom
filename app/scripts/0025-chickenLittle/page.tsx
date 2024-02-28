@@ -131,7 +131,7 @@ export default function chickenLittle() {
           <h3> Personal Experience or Opinion: </h3>
           <h4> First Impressions </h4>
           <p>{`
-            my first experianc with this game was back when i was like 12 or so. 
+            my first experience with this game was back when i was like 12 or so. 
                 my parents were nice enough to afford me a ps2 slim, which i had a few games for.
 
                 it was so long ago i'm not certain where we got it from, i believe it was either a walmart discount bin where we got it for like 5$.
@@ -153,21 +153,72 @@ export default function chickenLittle() {
             </cite>
             {`
                 so i remember only ever making it as far the scene where big click would burst out of the town hall, only for my parent who was driving me to turn off the car even though i already knew how the movie ended, 
-                it was always devistating
+                it was always devastating
             `}
           </aside>
+          <p>
+            {`
+                recently, on a whim we have noticed that me and bubbs have discovered that chicken little is somehow still available on steam. and this isn't a cheap remake or some knock off or even a port, this is the actual native version, and guess what?
+                it runs fine, flawless even!
+            `}
+          </p>
         </div>
         <div>
           <h3> Pros and Cons: </h3>
           <h4> Strengths (Pros) </h4>
+          <ul>
+            <li>
+              <h5> the game is fun? </h5>
+              <p>{`
+                one thing that was genuinely shocking about this game for me was that this game was genuinely fun genuinely! 
+              `}</p>
+            </li>
+            <li>
+              <h5> stable </h5>
+              <p>{`
+                this game is schockingly solid, relitively bug less, and is very consistent, expecally compared to the current market of games is (cyberpunk footage here)
+                `}</p>
+            </li>
+            <li>
+              <p>{`
+                it also had a nice range of mechanics that made the game feel a lot less repetitive and interesting
+                `}</p>
+            </li>
+          </ul>
           <h4> Weaknesses (Cons) </h4>
+          <ul>
+            <li>
+              <h5> the graphics are dated </h5>
+              <p>{`
+                now i don't want to sound like a dingle, but i will say the graphics are rather dated. and this isn't a "i don't like the style" way, but more a "this was published in 2005 and i can see it". that being said i don't want to make it seem like i'm hating on them, given my limited knowledge of graphics programming, and how  
+                `}</p>
+              <cite>
+                <a href="https://en.wikipedia.org/wiki/PlayStation_2_technical_specifications#:~:text=The%20sixth%2Dgeneration%20hardware%20of,299%20MHz%20in%20later%20consoles).">
+                  {`
+                the ps2 had a clockspeed of ~295MHz and about 32mb of ram
+                  `}
+                </a>
+              </cite>
+              <p>{`
+                this is extremely understandable. can you even download a phone app that isn't at least 30mb now? at least one that isn't a "lite" version or a glorified web wrapper
+              `}</p>
+            </li>
+            <li>
+              <h5> the game has its repetitive moments </h5>
+              <p>{`
+                this is a thing that is rather rad to say, but the game really felt like crunch was hitting near the end, as the finale platformer is effectively a repeat of only a few levels earlier.
+                which really made the last level feel much more like a victory lap then a proper level.
+              `}</p>
+            </li>
+          </ul>
         </div>
-        <div>
+        {/*<div>
           <h3> Comparisons: </h3>
           <h4> Benchmarking </h4>
           <h4> Alternatives </h4>
-        </div>
+        </div>*/}
         <div>
+          <a href="asdf.com"> here is some random link </a>
           <h3> Critical Analysis: </h3>
           <h4> Quality </h4>
           <h4> Impact </h4>
