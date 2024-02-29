@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 * {
+    border-radius: 1rem;
     transition-duration: 300ms;
     transition-timing-function: ease-in-out;
 }
@@ -109,8 +110,34 @@ body {
         color: #ff00ff;
     }
 
+    aside {
+        color: #ff0;
+    }
+
+    details>summary {
+        background-color: #000;
+        padding: 0.25em;
+    }
+
+    /*details {
+        background-color: #00f;
+        padding: 0.2em;
+    }*/
+
+    details {
+        border: #00f solid 2px;
+        padding: 0.2em;
+    }
+
+    details>p {
+        /*background-color: #000;*/
+        margin-top: 0.2em;
+        padding: 0.2em;
+    }
+
     hr {
-        padding-top: 1rem;
+        border-radius: 0px;
+        padding-top: 0rem;
         padding-bottom: 1rem;
     }
 
@@ -120,9 +147,24 @@ body {
         text-decoration: solid;
     }
 
-    li {
+    ul>li {
         list-style: circle;
         list-style-position: outside;
         text-decoration: solid;
+    }
+
+    ol>li {
+        list-style: decimal-leading-zero;
+        list-style-position: outside;
+        text-decoration: solid;
+    }
+
+    li {
+        padding: 0.5em;
+    }
+
+    li::marker {
+        color: #999;
+        padding: 0px;
     }
 }

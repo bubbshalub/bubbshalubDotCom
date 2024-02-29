@@ -89,8 +89,9 @@ export default function Navbar() {
         >
           {/*logo below*/}
           <div
-            className="bg-white align-middle w-48 rounded-r-md"
+            className="bg-white align-middle w-48"
             style={{
+              borderRadius: "0 10px 10px 0",
               position: "relative",
               maxHeight: "100%",
               width: "14rem",
@@ -99,8 +100,9 @@ export default function Navbar() {
             {/*icon/logo*/}
             {/*{{{1*/}
             <div
-              className="bg-black text-white rounded-r-md left-0 h-6"
+              className="bg-black text-white left-0 h-6"
               style={{
+                borderRadius: "0 10px 10px 0",
                 position: "relative",
                 width: "90%",
                 height: "100%",

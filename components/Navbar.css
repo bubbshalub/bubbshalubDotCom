@@ -3,6 +3,7 @@
     animation-timing-function: linear;
     background-size: 500%;
     background-position-x: 0%;
+    border-radius: 0px;
     filter: brightness(0.5);
 }
 
