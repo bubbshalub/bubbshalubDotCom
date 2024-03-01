@@ -47,12 +47,6 @@ export default function chickenLittle() {
           </h1>
         </div>
         <br />
-        <p>
-          {` I HAVE NO IDEA WHERE THIS GOES
-              recently, on a whim we have noticed that me and bubbs have discovered that chicken little is somehow still available on steam. and this isn't a cheap remake or some knock off or even a port, this is the actual native version, and guess what?
-                  it runs fine, flawless even!
-                  `}
-        </p>
         <br />
         <div>
           <h2> the lost tier of games </h2>
@@ -64,9 +58,12 @@ export default function chickenLittle() {
           <h4> Hook </h4>
           <p>{`chicken little is a better game then most modern titles`}</p>
           <h4> Context </h4>
-          <p>{`
-            with the current state of gaming and the churning of content most game studios are going through constantly, somehow are outdone by this tie in game which is chicken little for PC, which you can somehow still buy on steam
-        `}</p>
+          <p>
+            {`
+              recently, on a whim we have noticed that me and bubbs have discovered that chicken little is somehow still available on steam. and this isn't a cheap remake or some knock off or even a port, this is the actual native version, and guess what?
+                  it runs fine, flawless even!
+            `}
+          </p>
           <iframe
             className=""
             style={{
@@ -406,13 +403,16 @@ export default function chickenLittle() {
             <li>
               <details>
                 <summary>tube tumble</summary>
-              </details>
-              <p>{`
-                after you get to the mother ship,               
+                <p>{`
+                    after you get to the mother ship,               
                 `}</p>
-              <aside>{`i can finally see past the part i was constantly clucked by 
-`}</aside>
-              <p>{`and end up in this runt section which has a weird difficulty spike, but this might just be a hard mode difficulty spike. this is just the fish section again but you get the idea. same compliments and complaints.`}</p>
+                <aside>{`
+                    i can finally see past the part i was constantly clucked by 
+                `}</aside>
+                <p>{`
+                    and end up in this runt section which has a weird difficulty spike, but this might just be a hard mode difficulty spike. this is just the fish section again but you get the idea. same compliments and complaints.
+                `}</p>
+              </details>
             </li>
             <li>
               <details>
