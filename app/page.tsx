@@ -14,7 +14,7 @@ export default function Home() {
               <br />
             </h6>
             <p>
-              {`you will likely encounter bugs and glitches while i [vulbyte] am sorting everything out. but until then please enjoy yourself and feel free to check out my `}
+              {`you ]ill likely encounter bugs and glitches while i [vulbyte] am sorting everything out. but until then please enjoy yourself and feel free to check out my `}
               <a className="text-teal" href="/links">
                 {`links!`}
               </a>
@@ -38,7 +38,7 @@ export default function Home() {
           </h1>
           <br />
           {`
-                the website is under heavy matanince right. but until then feel free look around
+                the website is under heavy maintenance right now. but until then feel free look around
             `}
         </div>
       </main>
