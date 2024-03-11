@@ -50,13 +50,13 @@
             'note': '',
         },
         // inactive links
-        {
-            'name': 'Patreon', 
-            'link': 'https://www.patreon.com/bubbshalub182', 
-            'icon': 'https://c15.patreon.com/fhd_Patreon_Symbol_6fff9723d3.png', 
-            'status': 'active', 
-            'note': '',
-        },
+        //{
+        //    'name': 'Patreon', 
+        //    'link': 'https://www.patreon.com/bubbshalub182', 
+        //    'icon': 'https://c15.patreon.com/fhd_Patreon_Symbol_6fff9723d3.png', 
+        //    'status': 'active', 
+        //    'note': '',
+        //},
         // contact links
         // backup 
         //{ 
@@ -96,13 +96,14 @@
                 {#if link.status=='active'}
                     <a href='{link.link}' target='_blank'>
                         <div id='link{link.name}' class='generatedLink'>
+ 			    <p> {link.name} </p>
                             {#if link.icon != ''}
                                 <img 
                                     src='{link.icon}'
                                     alt='' 
                                 />
                             {/if}
-                            <p> {link.name} </p>
+                           
                         </div>
                     </a>
                 {/if}
@@ -115,13 +116,14 @@
                 {#if link.status=='monitored'}
                     <a href='{link.link}' target='_blank'>
                         <div id='link{link.name}' class='generatedLink'>
+                            <p> {link.name} </p>
                             {#if link.icon != ''}
                                 <img 
                                     src='{link.icon}'
                                     alt='' 
                                 />
                             {/if}
-                            <p> {link.name} </p>
+
                         </div>
                     </a>
                 {/if}
@@ -134,13 +136,13 @@
                 {#if link.status=='inactive'}
                     <a href='{link.link}' target='_blank'>
                         <div id='link{link.name}' class='generatedLink'>
+                            <p> {link.name} </p>
                             {#if link.icon != ''}
                                 <img 
                                     src='{link.icon}'
                                     alt='' 
                                 />
                             {/if}
-                            <p> {link.name} </p>
                         </div>
                     </a>
                 {/if}
@@ -154,13 +156,13 @@
                 {#if link.status=='contact'}
                     <a href='{link.link}' target='_blank'>
                     <div id='link{link.name}' class='generatedLink'>
+                            <p> {link.name} </p>
                         {#if link.icon != ''}
                             <img 
                                 src='{link.icon}'
                                 alt='' 
                             />
                         {/if}
-                        <p> {link.name} </p>
                     </div>
                     </a>
                 {/if}
