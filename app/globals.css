@@ -141,6 +141,14 @@ body {
         padding-bottom: 1rem;
     }
 
+    input {
+        color: black;
+    }
+
+    initial-value {
+        padding-left: 1em;
+    }
+
     ul {
         list-style: circle;
         list-style-position: outside;

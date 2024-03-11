@@ -119,3 +119,7 @@
     #linkTelegram>img {
         filter: invert(1) brightness(10);
     }*/
+
+    a {
+        background-color: transparent;
+    }

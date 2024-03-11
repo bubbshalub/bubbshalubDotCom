@@ -1,6 +1,9 @@
 //nextjs flag of where to render
 "use client";
 
+// BUG: if not at top of page, navbar is bugged
+// TODO: navbar looks a little ugly, needs some restyle when you can
+
 //supabase credentials
 //assets
 import Image from "next/image";
@@ -89,7 +92,7 @@ export default function Navbar() {
         >
           {/*logo below*/}
           <div
-            className="bg-white align-middle w-48"
+            className="bg-white align-middle w-48 min-w-[9em]"
             style={{
               borderRadius: "0 10px 10px 0",
               position: "relative",
@@ -100,7 +103,7 @@ export default function Navbar() {
             {/*icon/logo*/}
             {/*{{{1*/}
             <div
-              className="bg-black text-white left-0 h-6"
+              className="bg-black text-white left-0 h-6 min-w-[8em]"
               style={{
                 borderRadius: "0 10px 10px 0",
                 position: "relative",

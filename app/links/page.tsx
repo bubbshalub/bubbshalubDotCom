@@ -244,13 +244,14 @@ function ActiveLinks() {
               h-16 
               justify-center 
               m-auto 
-              mt-3 
-              mb-3 
+              max-w-80
+              mt-1 
+              mb-1 
               m-h-6 
               p-1 
               rounded-full 
               text-white 
-              w-80 
+              w-[80%]
               "
               style={{
                 backgroundImage: "linear-gradient(-45deg, #222, #333)",
@@ -271,7 +272,7 @@ function MonitoredLinks() {
   const monitoredLinks = links.filter((link) => link.status == "monitored");
 
   return (
-    <div>
+    <div className="m-auto w-[80%]">
       <h2> Monitored Links </h2>
       {monitoredLinks.map((link, index) => (
         <div key={index} id="monitoredLinks" className="linkContainer">
@@ -285,16 +286,14 @@ function MonitoredLinks() {
               flex-row 
               font-bold
               generatedLink 
-              h-16 
+              h-auto 
               justify-evenly
-              m-auto 
-              mt-3 
-              mb-3 
-              m-h-6 
+              max-w-80
+              m-auto
               p-1 
               rounded-md 
               text-white 
-              w-80 
+              w-[80]              
               "
               style={{
                 backgroundImage: "linear-gradient(-45deg, #222, #333",
@@ -329,12 +328,15 @@ function InactiveLinks() {
       <div>
         <div
           id="inactiveLinks"
-          className="linkContainer
-      grid"
+          className="
+          linkContainer
+          grid
+          max-w-[80%]
+            "
           style={{
             display: "grid",
-            gap: "1em",
-            gridTemplateColumns: "repeat(auto-fit, minmax(8rem, 1fr))",
+            gap: "",
+            gridTemplateColumns: "repeat(auto-fit, minmax(6rem, 1fr))",
             margin: "auto",
           }}
         >
@@ -343,7 +345,7 @@ function InactiveLinks() {
               key={index}
               href={link.link}
               target="_blank"
-              className="w-32"
+              className="w-auto pb-3"
               style={{
                 aspectRatio: "auto",
                 display: "grid",
@@ -352,6 +354,7 @@ function InactiveLinks() {
               <div
                 id={link.name}
                 className="
+                  aspect-square
                   align-middle
                   bg-zinc-900 
                   flex 
@@ -359,11 +362,10 @@ function InactiveLinks() {
                   font-bold
                   generatedLink 
                   justify-center 
-                  h-32
+                  w-[6em]
                   p-1 
                   rounded-md 
                   text-white 
-                  w-32
                 "
                 style={{
                   backgroundImage: "linear-gradient(-45deg, #111, #222)",
@@ -544,7 +546,7 @@ export default function LinksPage() {
         wishing you all the best, Vulbyte
       </p>
 
-      <div className="w-1/2 m-auto">
+      <div className="m-auto">
         <ActiveLinks />
         <hr className="opacity-0" />
 
