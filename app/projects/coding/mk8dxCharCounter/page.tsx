@@ -426,6 +426,7 @@ export default function MostPopularMK8Character() {
               <h4
                 className="name"
                 style={{
+                  fontSize: "1em",
                   fontWeight: "bold",
                   textTransform: "uppercase",
                   width: "100%",

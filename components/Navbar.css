@@ -16,3 +16,17 @@
         background-position-x: 500%;
     }
 }
+
+#projectsDropdown {
+    background-color: cyan;
+    border-top-left-radius: 0px;
+    display: none;
+    float: left;
+    overflow: hidden;
+    position: absolute;
+    min-width: 160px;
+}
+
+#projectsLink:hover #projectsDropdown {
+    display: block;
+}

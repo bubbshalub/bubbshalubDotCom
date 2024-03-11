@@ -1,17 +1,19 @@
-"use client";
-
 import Navbar from "@/components/navbar";
-import MostPopularMK8Character from "./mk8dxCharCounter/page";
 
 export default function Projects() {
   return (
     <div>
       <Navbar />
-      projects page
-      <br />
+      <p>{`this is the projects page`}</p>
       <ul>
         <li>
-          <a href="/projects/mk8dxCharCounter"> mk8dxCharCounter </a>
+          <a href="/projects/coding">coding</a>
+        </li>
+        <li>
+          <a href="/projects/music">music</a>
+        </li>
+        <li>
+          <a href="/projects/scripts">scripts/videos</a>
         </li>
       </ul>
     </div>

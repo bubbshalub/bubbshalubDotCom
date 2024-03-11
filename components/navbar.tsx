@@ -160,13 +160,23 @@ export default function Navbar() {
               </a>
             </div>
             <div className="m-auto">
-              <a
-                href="/scripts"
-                target=""
-                className="text-[#fff] bg-transparent"
-              >
-                scripts
-              </a>
+              <div id="projectsLink" className="text-[#fff] bg-transparent">
+                <a
+                  href="/projects"
+                  target=""
+                  className="bg-transparent text-white"
+                >
+                  projects
+                </a>
+                <div id="projectsDropdown">
+                  {/*<a> blogs </a>*/}
+                  <a> music </a>
+                  <br />
+                  <a> coding projects </a>
+                  <br />
+                  <a href="/projects/videos"> scripts && videos </a>
+                </div>
+              </div>
             </div>
             {/*
             <div className="m-auto">
