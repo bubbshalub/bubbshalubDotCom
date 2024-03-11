@@ -1,3 +1,6 @@
+// TODO: seperate scripts into an "entertainment" section that contains:
+// scripts, music, etc etc
+
 import Navbar from "@/components/navbar";
 
 export default function Home() {

@@ -3,13 +3,13 @@
 // TODO: make sweet love to my pillow in my dreams
 
 // Import necessary React hooks
-import React, { useRef, useState } from "react";
+import React, { useState, ReactNode } from "react";
 import Navbar from "@/components/navbar";
 
 // Create your functional component
 const DynamicElements = () => {
   // State to store the created elements
-  const [elements, setElements] = useState([]);
+  const [elements, setElements] = useState<ReactNode[]>([]);
 
   const placeholder = "1234.567km/hr";
 
@@ -42,7 +42,7 @@ const DynamicElements = () => {
       {/* Display the created elements */}
       <div className="max-w-[80%] m-auto">
         {elements.map((element) => (
-          <div key={element.key}>
+          <div key={(element as { key: React.Key }).key ?? "indexNull"}>
             <div>
               <p>controls</p>
             </div>
