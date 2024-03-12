@@ -18,11 +18,12 @@
 }
 
 #projectsDropdown {
-    background-color: cyan;
+    background-color: black;
     border-top-left-radius: 0px;
     display: none;
     float: left;
     overflow: hidden;
+    padding: 1em;
     position: absolute;
     min-width: 160px;
 }

@@ -200,7 +200,7 @@ const links = [
   },
   {
     name: "Email",
-    link: "mailto:insertopen@gmail.com",
+    link: "mailto:vulbyt3@gmail.com",
     //'icon': mailIcon,
     status: "contact",
     note: "",

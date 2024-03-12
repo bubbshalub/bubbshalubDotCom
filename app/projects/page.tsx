@@ -7,13 +7,19 @@ export default function Projects() {
       <p>{`this is the projects page`}</p>
       <ul>
         <li>
+          <a href="/projects/coding">art</a>
+        </li>
+        <li>
           <a href="/projects/coding">coding</a>
         </li>
         <li>
           <a href="/projects/music">music</a>
         </li>
         <li>
-          <a href="/projects/scripts">scripts/videos</a>
+          <a href="/projects/scripts">scripts</a>
+        </li>
+        <li>
+          <a href="/projects/scripts">videos</a>
         </li>
       </ul>
     </div>

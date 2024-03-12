@@ -1,6 +1,4 @@
-// TODO: seperate scripts into an "entertainment" section that contains:
-// scripts, music, etc etc
-
+import Footer from "@/components/footer/footer";
 import Navbar from "@/components/navbar";
 
 export default function Home() {
@@ -45,6 +43,7 @@ export default function Home() {
             `}
         </div>
       </main>
+      <Footer />
     </div>
   );
 }

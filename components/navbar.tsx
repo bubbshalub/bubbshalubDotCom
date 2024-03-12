@@ -170,11 +170,15 @@ export default function Navbar() {
                 </a>
                 <div id="projectsDropdown">
                   {/*<a> blogs </a>*/}
-                  <a> music </a>
+                  <a href="/links#ArtStation"> art </a>
                   <br />
-                  <a> coding projects </a>
+                  <a href="/projects/coding"> coding projects </a>
                   <br />
-                  <a href="/projects/videos"> scripts && videos </a>
+                  <a href="/links#Soundcloud"> music </a>
+                  <br />
+                  <a href="projects/scripts"> scripts </a>
+                  <br />
+                  <a href="/links#Youtube"> videos </a>
                 </div>
               </div>
             </div>
