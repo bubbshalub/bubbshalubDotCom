@@ -1,3 +1,5 @@
+// TODO: fix links here
+
 import Navbar from "@/components/navbar";
 
 export default function Scripts() {
@@ -32,14 +34,14 @@ export default function Scripts() {
       <h2> scripts: </h2>
       <ul className="p-4">
         <li>
-          <a href="/scripts/0024-newYears" className="text-teal">
+          <a href="/projects/scripts/0024-newYears" className="text-teal">
             {`
                 0024-newYears
             `}
           </a>
         </li>
         <li>
-          <a href="/scripts/0025-chickenLittle" className="text-teal">
+          <a href="/projects/scripts/0025-chickenLittle" className="text-teal">
             {`
                 0025-chickenLittle - the lost tier of games
             `}

@@ -1,3 +1,7 @@
+// TODO: redesign the links at some point
+// FIX: Icon of volbyte on this page
+// FIX: fix link icons
+
 /*
  *  note:
  *  rework the whole layout
@@ -150,7 +154,7 @@ const links = [
   },
   {
     name: "#f*ckSpez",
-    link: "https://www.reddit.com",
+    link: "https://www.reddit.com/u/vulbyte",
     icon: "https://static-00.iconduck.com/assets.00/reddit-logo-icon-512x512-jv3e2p8i.png",
     status: "inactive",
     note: "",
@@ -439,7 +443,7 @@ function ContactLinks() {
 
   return (
     <div>
-      <h2> Inactive Links </h2>
+      <h2> Contact Links </h2>
       <p>
         {`these are all links that are offically mine, but are not active. if you
         wish to check them out feel free! but please don't expect a reply or any

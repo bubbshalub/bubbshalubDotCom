@@ -1,3 +1,6 @@
+// FIX: try again button
+// TODO: add kuro version
+
 "use client";
 
 import { useEffect } from "react";

@@ -1,3 +1,5 @@
+// TODO: fix scaling when fullscreened
+
 import Navbar from "@/components/navbar";
 
 import "./checkerGrid.css";

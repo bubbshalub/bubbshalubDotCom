@@ -3,6 +3,8 @@
 
 // BUG: if not at top of page, navbar is bugged
 // TODO: navbar looks a little ugly, needs some restyle when you can
+// FIX: how projects hover is, is bugged on bubbs machine and text is black
+// TODO: make #ID highlightednavbar
 
 //supabase credentials
 //assets
@@ -176,7 +178,7 @@ export default function Navbar() {
                   <br />
                   <a href="/links#Soundcloud"> music </a>
                   <br />
-                  <a href="projects/scripts"> scripts </a>
+                  <a href="/projects/scripts"> scripts </a>
                   <br />
                   <a href="/links#Youtube"> videos </a>
                 </div>
