@@ -59,7 +59,7 @@ and with these new graphics there's multiple changes that are wonderful to see, 
 
 the orignal game had effectively no in game story, the bulk of it actually being in the manual over in game however due to the game being released on the snes and likely onlt had about [0.125mb of storage](https://www.gbmb.org/mbit-to-mb) excuse me for being a bit leaniant.
 
-if you wanted any story for the game you would actually need to open the [manual](https://www.thegameisafootarcade.com/wp-content/uploads/2017/02/Mega-Man-Game-Manual.pdf) for this game, and turn to page 6 or 7 and actually _read_ about the story and robot masters and story. and you bet this thing being crammed into a box that's about [5 inches Tall 7 inches Long 1 1/4 inches Wide](https://forum.digitpress.com/forum/showthread.php?147029-SNES-N64-game-box-dimensions or about 12.7cm x 17.8cm x 3.175cm for those of us with and education, you bet there wasn't much being crammed in beside the cartrage.
+if you wanted any story for the game you would actually need to open the [manual](https://www.thegameisafootarcade.com/wp-content/uploads/2017/02/Mega-Man-Game-Manual.pdf) for this game, and turn to page 6 or 7 and actually _read_ about the story and robot masters and story. and you bet this thing being crammed into a box that's about [5 inches Tall 7 inches Long 1 1/4 inches Wide](https://forum.digitpress.com/forum/showthread.php?147029-SNES-N64-game-box-dimensions or about 12.7cm x 17.8cm x 3.175cm for those of us with and education, you bet there wasn't much being crammed in beside the cartage.
 
 the original manual read
 : "it's MEGA MAN versus the powerful leaders and fighting forces of Monsteropolis - the strange multi-faceted land of robot-like Humanoids.
