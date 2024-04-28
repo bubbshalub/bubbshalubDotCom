@@ -28,11 +28,11 @@ export default function Footer() {
           </li>
         </ul>
       </div>
-      <div>
+      <div style={{ height: "100%" }}>
         <Image src={vulbytesLogo} alt="vulbytes logo" />
         <Image src={vulbytesWordmark} alt="vulbytes wordmark" />
       </div>
-      <div>
+      <div style={{ height: "100px" }}>
         <h6>other stuff</h6>
         <ul className="flex flex-col justify-between h-[100%] ml-auto mr-0 ">
           <li>{`we collect no user data at this time`}</li>

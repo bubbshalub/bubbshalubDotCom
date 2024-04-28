@@ -18,6 +18,9 @@ export default function Projects() {
         <li>
           <a href="/projects/coding/iDontWantSex"> iDontWantSexIWantMinions </a>
         </li>
+        <li>
+          <a href="/projects/coding/workHoursCalc"> workHoursCalc </a>
+        </li>
       </ul>
     </div>
   );
