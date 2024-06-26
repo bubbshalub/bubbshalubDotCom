@@ -47,6 +47,23 @@ export default function Scripts() {
             `}
           </a>
         </li>
+        <li>
+          <a href="/projects/scripts/0025-chickenLittle" className="text-teal">
+            {`
+                0025-chickenLittle - the lost tier of games
+            `}
+          </a>
+        </li>
+        <li>
+          <a
+            href="/projects/scripts/0028-linux-zer0_to_hero.md"
+            className="text-teal"
+          >
+            {`
+                0028-linux-zer0_to_hero
+            `}
+          </a>
+        </li>
       </ul>
     </div>
   );
