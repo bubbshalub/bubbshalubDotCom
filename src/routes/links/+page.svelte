@@ -7,7 +7,7 @@
     const links = [
         // Active links
         {
-            'name': 'Discord Server', 
+            'name': 'Discord', 
             'link': 'https://discord.gg/yyFmxV2uFC', 
             'icon': 'https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0a6ca814282eca7172c6_icon_clyde_white_RGB.svg', 
             'status': 'active', 
@@ -72,12 +72,12 @@
 <div id='linksPage'>
     <br />
     <br />
-    <div id='iconContainer'> 
+    <a href="/"><div id='iconContainer'>
         <img 
             src='{bubbsIcon}'
-            alt='icon of Jesus Christ, our Lord and Savior'
+            alt='icon of bubbshalub'
         />
-    </div>
+    </div></a>
     <h1> 
         <span
         id="randomWelcomeText"
@@ -90,12 +90,25 @@
             
                
         
-           please click on these buttons
+           DO NOT REFRESH THE PAGE IT WILL BREAK
         </span></h1>
         <script>
         let header= document.getElementById("randomWelcomeText");
         let randomHeaders= ["please click these buttons :)", "subscribe to vulbyte :3", "DO NOT GO TO THE DISCORD", "rip steve jobs, victim of ligma", "asdf",
-            "refresh this page", "when i was a young babybell..."
+            "refresh this page", "when i was a young babybell...", "vacuum your roof", "microwave burritos should be air fried", "did you know I have a webcomic?",
+            "August 14th, 2035", "sonic the hedgehog", "this text is randomly generated", "made without the use of AI", "click on the buttons below",
+            "choose one of these links", "this is an ARG", "ANGRY SERGALS", "click those darn links", "pootis", "CLICK THE LINKS", "birds can be dogs too", "refresh this page",
+            "west philadelphia, born and raised", "vulbyte was here", "tails.exe", "look at those pretty links", "made with svelte!", "localhost:6969", "ninja sex party",
+            "hello everybody this is markiplier", "twitter dot com forward slash bubbshalub", "im not calling it x", "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "brought to you by the letter b", "dinosaur laser fight", "^this is a sergal", "justice for xenia", "krystal starfox", "half life 3", "grame gumps", 
+            "mr john halo", "MM/DD/YYYY", "is this loss?", "your ip is 192.168.1.1", "gentlemen", "asses to asses, butts to butts", "i love cats, they taste like chicken!",
+            "cream of dog", "she's eaten the glass ceiling...", "subscirb to youtob", "minecraft", "65% more bullet per bullet!", "if this site is broken then call bubbs",
+            "not responsible for broken mirrors", "be crime do gay", "LGBT certified grade A beef", "formatted in EXT4", "supercalifragilisticexpialidocious", "I am all of me", "shadow the hedgehog",
+            "LIVE AND LEARN!", "Joop", "think again buddy", "THEY HIT THE FUCKING PENTAGON", "do your homework", "fold your laundry", "brush your teeth", "press ALT + F4 to win the game!",
+            "now with the latest in faxing technology", "please address your hate mail to 935 Pennsylvania Ave., NW., Washington, DC 20535", "stop refreshing the page", "minor type-o",
+            "this message is 24 bytes", "server not responding, try again later", "peaches come in a can, they were put there by a man", "you have reached the maximum amount of refreshes",
+            "y = mx + b", "you have angered freddy fazbear", "my favorite artist is conditional_dnp", "sponsored by sponsorblock!"
+
         ];
         header.innerText= randomHeaders[Math.floor(Math.random()*randomHeaders.length)]
         </script>

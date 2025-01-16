@@ -3,13 +3,14 @@
     import vulbyteIcon from '$lib/vulbytesLogo.svg';
 </script>
 
+
 <div id='home'>
     <br />
     <br />
     <div id='iconContainer'> 
         <img 
             src='{bubbsIcon}'
-            alt='icon of Jesus Christ our Lord and Savior'
+            alt='icon of bubbshalub'
         />
     </div>
     <h1> 
@@ -20,13 +21,13 @@
             background-image: linear-gradient(1rad, red, orange);    
         "   
         >
-           Bubbshalub.com
+           bubbshalub.com
         </span></h1>
-    <h2>more will be coming soon... maybe</h2>
+    <h2>explore around, enjoy your stay</h2>
     
     <a href='/links'>
         <div id='linkCta'>
-            <p> click here for my socials </p>
+            <p> Socials </p>
         </div>
     </a>
 
