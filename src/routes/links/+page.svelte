@@ -21,7 +21,7 @@
             'note': '',
         },
         {
-            'name': 'Youtube', 
+            'name': 'YouTube', 
             'link': 'https://www.youtube.com/@bubbshalub', 
             'icon': 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/2560px-YouTube_full-color_icon_%282017%29.svg.png', 
             'status': 'active', 
@@ -31,24 +31,24 @@
 	    {
             'name': 'Bluesky', 
             'link': 'https://bsky.app/profile/bubbshalub.bsky.social', 
-            'icon': 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Blue_Sky_Studios_2013_logo.svg/1280px-Blue_Sky_Studios_2013_logo.svg.png', 
+            'icon': 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Bluesky_Logo.svg/600px-Bluesky_Logo.svg.png', 
             'status': 'active', 
             'note': '',
         },
-        {
-            'name': 'Furaffinity', 
-            'link': 'https://www.furaffinity.net/user/bubbshalub', 
-            'icon': 'https://user-images.githubusercontent.com/73164889/117507463-efde5e80-af7e-11eb-8886-5aeb3ce43778.png', 
-            'status': 'active',  
-            'note': '',
-        },
-        {
-            'name': 'Tumblr', 
-            'link': 'https://www.tumblr.com/bubbshalub', 
-            'icon': 'https://www.iconpacks.net/icons/2/free-tumblr-icon-2169-thumb.png', 
-            'status': 'active', 
-            'note': '',
-        },
+        //{
+        //    'name': 'Furaffinity', 
+        //    'link': 'https://www.furaffinity.net/user/bubbshalub', 
+        //    'icon': 'https://user-images.githubusercontent.com/73164889/117507463-efde5e80-af7e-11eb-8886-5aeb3ce43778.png', 
+        //    'status': 'active',  
+        //    'note': '',
+        //},
+        //{
+        //    'name': 'Tumblr', 
+        //    'link': 'https://www.tumblr.com/bubbshalub', 
+        //    'icon': 'https://www.iconpacks.net/icons/2/free-tumblr-icon-2169-thumb.png', 
+        //    'status': 'active', 
+        //    'note': '',
+        //},
         // inactive links
         //{
         //    'name': 'Patreon', 
@@ -79,15 +79,26 @@
         />
     </div>
     <h1> 
-        <span style=
+        <span
+        id="randomWelcomeText"
+         style=
         "
             color:transparent;
             background-clip: text;
             background-image: linear-gradient(-25deg, red, orange);    
-        "   
-        >
-           these are my many things
+        ">
+            
+               
+        
+           please click on these buttons
         </span></h1>
+        <script>
+        let header= document.getElementById("randomWelcomeText");
+        let randomHeaders= ["please click these buttons :)", "subscribe to vulbyte :3", "DO NOT GO TO THE DISCORD", "rip steve jobs, victim of ligma", "asdf",
+            "refresh this page", "when i was a young babybell..."
+        ];
+        header.innerText= randomHeaders[Math.floor(Math.random()*randomHeaders.length)]
+        </script>
     <p> send me your best <span style='color:transparent;background-image:linear-gradient(1rad,red,orange,yellow,green,cyan);background-clip:text;'>memes </span> </p>
 
     <div id='allTheLinks'>
@@ -96,13 +107,14 @@
                 {#if link.status=='active'}
                     <a href='{link.link}' target='_blank'>
                         <div id='link{link.name}' class='generatedLink'>
- 			    <p> {link.name} </p>
-                            {#if link.icon != ''}
+ 			    {#if link.icon != ''}
                                 <img 
                                     src='{link.icon}'
                                     alt='' 
                                 />
                             {/if}
+                <p> {link.name} </p>
+                            
                            
                         </div>
                     </a>
