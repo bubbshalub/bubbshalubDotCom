@@ -1,6 +1,7 @@
 <script>
     import mailIcon from '$lib/mailIcon.svg';
-    import bubbsIcon from '$lib/sketchIconBubb.png';
+    //import bubbsIcon from '$lib/sketchIconBubb.png';
+    import bubbsIcon from '$lib/king_shalub.jpg';
     import vulbyteIcon from '$lib/vulbytesLogo.svg';
 
     import disIcon from '$lib/discord-icon.svg';
