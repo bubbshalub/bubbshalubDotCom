@@ -3,27 +3,32 @@
     import bubbsIcon from '$lib/sketchIconBubb.png';
     import vulbyteIcon from '$lib/vulbytesLogo.svg';
 
+    import disIcon from '$lib/discord-icon.svg';
+    import twitIcon from '$lib/twitter-icon.svg';
+    import youIcon from '$lib/youtube-icon.svg';
+    import bluIcon from '$lib/bluesky-icon.svg';
+
     //implimented states: active, monitored, inactive/un-monitored/not-monitored, and contact
     const links = [
         // Active links
         {
             'name': 'Discord', 
             'link': 'https://discord.gg/yyFmxV2uFC', 
-            'icon': 'https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0a6ca814282eca7172c6_icon_clyde_white_RGB.svg', 
+            'icon': disIcon, 
             'status': 'active', 
             'note': 'cum',
         },
         {
             'name': 'Twitter', 
             'link': 'https://www.twitter.com/bubbshalub', 
-            'icon': 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/512px-Logo_of_Twitter.svg.png', 
+            'icon': twitIcon,
             'status': 'active', 
             'note': '',
         },
         {
             'name': 'YouTube', 
             'link': 'https://www.youtube.com/@bubbshalub', 
-            'icon': 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/2560px-YouTube_full-color_icon_%282017%29.svg.png', 
+            'icon': youIcon,
             'status': 'active', 
             'note': '',
         },
@@ -31,7 +36,7 @@
 	    {
             'name': 'Bluesky', 
             'link': 'https://bsky.app/profile/bubbshalub.bsky.social', 
-            'icon': 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Bluesky_Logo.svg/600px-Bluesky_Logo.svg.png', 
+            'icon': bluIcon,
             'status': 'active', 
             'note': '',
         },
@@ -112,7 +117,18 @@
         ];
         header.innerText= randomHeaders[Math.floor(Math.random()*randomHeaders.length)]
         </script>
-    <p> send me your best <span style='color:transparent;background-image:linear-gradient(1rad,red,orange,yellow,green,cyan);background-clip:text;'>memes </span> </p>
+    <p> 
+		send me your best 
+		<span 
+			class='background_anim'
+			style='
+				color:transparent;
+				background-image:linear-gradient(1rad,red,orange,yellow,green,cyan, purple, red);
+				background-clip:text;'
+		>
+			memes 
+		</span> 
+    </p>
 
     <div id='allTheLinks'>
         <div id='activeLinks' class='linkContainer'>
@@ -209,6 +225,25 @@
 </div>
 
 <style> 
+@keyframes bg_anim {
+	0%{
+		background-position: -0%;
+		background-rotation: -0deg;
+	}
+	50%{
+		background-position: +140%;
+	}
+	100%{
+		background-position: -0%;
+		background-rotation: -360deg;
+	}
+}
+.background_anim {
+	background-size: 200%;
+	animation: bg_anim 6s infinite;
+	display:inline-block;
+}
+
 #creditDiv>img {
 	max-width:3rem;
 }
